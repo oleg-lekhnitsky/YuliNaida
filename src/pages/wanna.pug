@@ -1,0 +1,35 @@
+extends /layouts/main.pug
+
+block meta
+  +meta(title="Yuliana Naida", description="Creator!", og-image="/images/IMG_0202.jpg")
+  
+block content
+  .ids__wrapper.ids__full-width-wanna
+    section 
+      .ids__grid.XL.ids__grid-inset-S
+        video.cover(autoplay='autoplay', loop='loop', muted='muted')
+          source(src="https://by-wanna-kicks-public-dev.s3.amazonaws.com/fashion/Wanna-site-eng.mp4") 
+        .ids__grid-cell-wanna
+          video(autoplay='autoplay', loop='loop', muted='muted')
+            source(src="https://by-wanna-kicks-public-dev.s3.amazonaws.com/fashion/Gucci.mp4") 
+          h2 Gucci
+          h3 Digital Sneaker Try-On in the Gucci app
+          a(src = 'https://wanna.fashion/gucci')
+            p Read case
+        .ids__grid-cell-wanna
+          video(autoplay='autoplay', loop='loop', muted='muted')
+            source(src="https://by-wanna-kicks-public-dev.s3.amazonaws.com/fashion/Snapchat.mp4") 
+          div
+            h2 Snapchat
+            h3 Shopable AR in Snapchat
+          h3  
+          a(src = 'https://wanna.fashion/gucci')
+            p Read case
+        .ids__grid-cell-wanna
+          video(autoplay='autoplay', loop='loop', muted='muted')
+            source(src="https://by-wanna-kicks-public-dev.s3.amazonaws.com/fashion/Reebok.mp4") 
+          h2 Reebok
+          h3 New Product Activation in COVID-era
+          a(src = 'https://wanna.fashion/gucci')
+            p Read case
+      
