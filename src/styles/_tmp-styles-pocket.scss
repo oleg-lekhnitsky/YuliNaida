@@ -458,6 +458,7 @@ ul.landing {
 
   li {
     display: inline-flex;
+    width: max-content;
     padding: $ids__micro-padding;
     //background-color: RGB(var(--ids__mark-RGB));
     background-color: transparent;
