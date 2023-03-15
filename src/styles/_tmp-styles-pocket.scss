@@ -451,6 +451,7 @@ img.album {
 }
 
 ul.landing {
+  
   list-style-type: none;
   margin-top: 2em;
   width: fit-content;
@@ -466,6 +467,7 @@ ul.landing {
     margin-bottom: 0.4em;
     list-style-type: none;
     padding-left: calc(var(--ids__density) * 0.75em);
+    padding: .2em .6em;
   }
   li.mark {
     //background-color: RGB(var(--ids__accent-RGB));
