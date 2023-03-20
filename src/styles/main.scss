@@ -1,9 +1,9 @@
-@import 'ids/all';
-@import 'base/all';
-@import 'tmp-styles-pocket';
+@import "ids/all";
+@import "base/all";
+@import "tmp-styles-pocket";
 
 :root {
-  --ids__font: 'PPNeueMontreal ', sans-serif;
+  --ids__font: "PP Neue Montreal", sans-serif;
   --ids__density: 1.2;
 
   --type-scale-desktop: 1.5; //коэффициент увеличения шрифта десктоп
